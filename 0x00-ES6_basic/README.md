@@ -9,15 +9,8 @@ For this project, you are expected to explore and understand the following conce
 - Modern JavaScript
 - Software Linter
 
-## Resources
-Read or watch the following resources to enhance your knowledge:
-
-- [ECMAScript 6 - ECMAScript 2015](resource_link_1)
-- [Statements and declarations](resource_link_2)
-- [Arrow functions](resource_link_3)
-- [Default parameters](resource_link_4)
-- [Rest parameter](resource_link_5)
-- [Javascript ES6 — Iterables and Iterators](resource_link_6)
+## Personal Resource
+- [ES6 Tutorial: Learn Modern JavaScript in 1 Hour](https://www.youtube.com/watch?v=NCwa_xi0Uuc)
 
 ## Learning Objectives
 By the end of this project, you should be able to explain the following concepts without the help of Google:
