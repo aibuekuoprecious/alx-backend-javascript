@@ -1,3 +1,6 @@
+/**
+ * Implement a class named Car
+ */
 export default class Car {
   constructor(brand, motor, color) {
     this.brand = brand;
