@@ -1,3 +1,6 @@
+/**
+ * Implement a class named Building
+ */
 export default class Building {
   constructor(sqft) {
     this.sqft = sqft;
