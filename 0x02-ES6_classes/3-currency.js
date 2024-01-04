@@ -1,3 +1,6 @@
+/**
+ * Implement a class named Currency
+ */
 export default class Currency {
   constructor(code, name) {
     this.code = code;
