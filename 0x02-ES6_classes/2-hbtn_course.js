@@ -1,13 +1,13 @@
 /**
- * Represents a Holberton Course.
+ * Implement a class named HolbertonCourse
  */
 export default class HolbertonCourse {
   /**
    * Creates a new @see {@link HolbertonCourse}.
    *
-   * @param {String} name - The name of the course.
-   * @param {Number} length - How long the course is (in months).
-   * @param {String[]} students - The names of students in the course.
+   * @param {String} name - Name of the course.
+   * @param {Number} length - Length of the course (in months).
+   * @param {String[]} students - Names of students in the course.
    */
   constructor(name, length, students) {
     this.name = name;
