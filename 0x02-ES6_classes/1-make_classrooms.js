@@ -1,5 +1,6 @@
 import ClassRoom from './0-classroom';
 
+
 export default function initializeRooms() {
   /**
   * Creates an array of {@link ClassRoom}s with a specific size.
