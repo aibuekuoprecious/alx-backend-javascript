@@ -1,3 +1,6 @@
+/**
+ * Implement a class named HolbertonClass
+ */
 export class HolbertonClass {
   constructor(year, location) {
     this._year = year;
