@@ -8,7 +8,7 @@
  * @author Aibueku Precious Okwuoma <https://github.com/aibuekuoprecious>
  * @returns
  */
-export default function getListStudentIds(students) {
+export default function getListStudentIds(studentList) {
   if (studentList instanceof Array) {
     return studentList.map((student) => student.id);
   }
