@@ -1,5 +1,5 @@
 /**
- * Retrieves a list of students.
+ * Function named getListStudents that returns an array of objects.
  * @author Aibueku Precious Okwuoma <https://github.com/aibuekuoprecious>
  * @returns {{id: Number, firstName: String, location: String}[]}
  */
