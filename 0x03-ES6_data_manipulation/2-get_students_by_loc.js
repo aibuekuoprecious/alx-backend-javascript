@@ -1,6 +1,5 @@
 /**
- * Create a function getStudentsByLocation that 
- * returns an array of objects who are located in a specific city.
+ * Retrieves students in a given location.
  * @param {{
  *   id: Number,
  *   firstName: String,
