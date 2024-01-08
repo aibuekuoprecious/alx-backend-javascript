@@ -9,7 +9,7 @@
  * @returns
  */
 export default function getListStudentIds(studentList) {
-  if (studentList instanceof Array) {
+  if (Array.isArray(studentList)) {
     return studentList.map((student) => student.id);
   }
   return [];
