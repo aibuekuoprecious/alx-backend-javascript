@@ -1,6 +1,5 @@
 /**
- * Joins a set of strings with a dash after stripping the strings of
- * a leading sub string.
+ * Joins a set of strings with a dash.
  * @param {Set<String>} set - A collection of strings.
  * @param {String} startString - The string to strip.
  * @author Aibueku Precious Okwuoma <https://github.com/aibuekuoprecious>
