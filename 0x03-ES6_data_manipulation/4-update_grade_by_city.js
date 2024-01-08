@@ -10,13 +10,13 @@
  *   studentId: Number,
  *   grade: Number,
  * }[]} newGrades - The new grades to be given to a student.
- * @author Bezaleel Olakunori <https://github.com/B3zaleel>
+ * @author Aibueku Precious Okwuoma <https://github.com/aibuekuoprecious>
  * @returns {{id: Number, firstName: String, location: String}[]}
  */
 export default function updateStudentGradeByCity(students, city, newGrades) {
   const defaultGrade = { grade: 'N/A' };
 
-  if (students instanceof Array) {
+  if (Array.isArray(students)) {
     return students
       .filter((student) => student.location === city)
       .map((student) => ({
