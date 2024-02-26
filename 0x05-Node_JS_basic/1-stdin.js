@@ -1,6 +1,6 @@
 const readline = require('readline');
 /**
- * The readline interface.
+ * Readline interface for reading input from the command line.
  * @type {readline.Interface}
  */
 const rl = readline.createInterface({
