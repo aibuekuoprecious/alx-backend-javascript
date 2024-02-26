@@ -73,19 +73,19 @@ app.get('/students', (_, res) => {
   countStudents(DB_FILE)
     .then((report) => {
       responseParts.push(report);
-      const responseText = responseParts.join('\n');
+      const resMessage = responseParts.join('\n');
       res.setHeader('Content-Type', 'text/plain');
-      res.setHeader('Content-Length', responseText.length);
+      res.setHeader('Content-Length', resMessage.length);
       res.statusCode = 200;
-      res.write(Buffer.from(responseText));
+      res.write(Buffer.from(resMessage));
     })
     .catch((err) => {
       responseParts.push(err instanceof Error ? err.message : err.toString());
-      const responseText = responseParts.join('\n');
+      const resMessage = responseParts.join('\n');
       res.setHeader('Content-Type', 'text/plain');
-      res.setHeader('Content-Length', responseText.length);
+      res.setHeader('Content-Length', resMessage.length);
       res.statusCode = 200;
-      res.write(Buffer.from(responseText));
+      res.write(Buffer.from(resMessage));
     });
 });
 
