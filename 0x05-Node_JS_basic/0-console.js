@@ -1,10 +1,10 @@
 /**
- * Displays a message in the console.
- * @param {string} msg - The message to be displayed.
+ * Displays a message on the console.
+ * @param {String} msg The message to display.
  * @author Aibueku Precious Okwuoma <https://github.com/aibuekuoprecious>
  */
 const displayMessage = (msg) => {
   console.log(msg);
 };
 
-module.exports = { displayMessage };
+module.exports = displayMessage;
