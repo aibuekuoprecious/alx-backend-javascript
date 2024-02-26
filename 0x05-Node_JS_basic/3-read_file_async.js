@@ -2,11 +2,11 @@ const fs = require('fs');
 
 /**
  * Counts the students in a CSV data file.
- * @param {String} dataPath The path to the CSV data file.
+ * @param {String} csvPath The path to the CSV data file.
  * @author Aibueku Precious Okwuoma <https://github.com/aibuekuoprecious>
  */
-const countStudents = (dataPath) => new Promise((resolve, reject) => {
-  fs.readFile(dataPath, 'utf-8', (err, data) => {
+const countStudents = (csvPath) => new Promise((resolve, reject) => {
+  fs.readFile(csvPath, 'utf-8', (err, data) => {
     if (err) {
       reject(new Error('Cannot load the database'));
     }
