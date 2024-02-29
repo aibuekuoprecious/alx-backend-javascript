@@ -1,12 +1,16 @@
 const express = require('express');
 
 const app = express();
-const PORT = 7865;
+const PORT = process.env.PORT || 7865;
 
 app.use(express.json());
 
 app.get('/', (_req, res) => {
   res.send('Welcome to the payment system');
+});
+
+app.listen(PORT, () => {
+  console.log(`API available on localhost port ${PORT}`);
 });
 
 app.get('/cart/:id(\\d+)', (req, res) => {
@@ -24,10 +28,6 @@ app.post('/login', (req, res) => {
   const username = userName || '';
 
   res.send(`Welcome ${username}`);
-});
-
-app.listen(PORT, () => {
-  console.log(`API available on localhost port ${PORT}`);
 });
 
 module.exports = app;
