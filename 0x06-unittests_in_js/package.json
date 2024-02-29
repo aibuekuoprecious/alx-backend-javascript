@@ -1,7 +1,8 @@
 {
   "devDependencies": {
     "chai": "^5.1.0",
-    "mocha": "^10.3.0"
+    "mocha": "^10.3.0",
+    "sinon": "^17.0.1"
   },
   "name": "0x06-unittests_in_js",
   "description": "This project contains tasks for learning to create unittests in NodeJS.",
